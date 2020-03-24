@@ -1,0 +1,357 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.mySlides {display:none;}
+footer {
+  background-color: black;
+  background-size: cover;}
+body {
+  font-family: exo, Helvetica, sans-serif;}
+.text1 {
+  font-family: exo;
+  font-size: 20px;
+  color: white;
+  margin-left: 5%;
+  margin-top:4%;
+}
+.text2 {
+  animation: colorchange 1s infinite;
+  font-size: 50px;
+  word-spacing: 3px;
+  font-family: "exo", "bell mt";
+  color: #00ccff;
+}
+.text3 {
+  position:relative;
+  top:20px;
+  font-size: 20px;
+  word-spacing: 3px;
+  font-family: "arial", "bell mt";
+  color:white;
+}
+.text4 {
+  font-family: "arial";
+  font-size: 14px;
+  color:white;
+}
+.text5 {
+  font-family: "segoe md12 assets";
+  font-size: 20px;
+  color: grey}
+.text5:hover {
+  position: static;
+  font-family: "segoe md12 assets";
+  font-size: 20px;
+  color: #00ccff;
+}
+.text6{
+  color: #00ccff;
+  letter-spacing: 12px;
+  font-family: arial;
+  font-size: 30px;
+  text-shadow: 3px 2px 5px grey;
+}
+.text7{
+  color: grey;
+  letter-spacing: 2px;
+  font-family: arial;
+  font-size: 15px;
+  font-style:italic;
+  position:relative;
+  top:-10px;
+}
+.text8{
+  font-size: 12px;
+  font-family: arial;
+  padding: 10px 35px;
+  color: black;
+  display: inline-block;
+  margin-left: 1140px;
+  background-color: white;
+  border: 2px solid #00ccff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.text8:hover {
+  box-shadow: 2px 3px 5px grey;
+  font-size: 12px;
+  font-family: arial;
+  padding: 10px 35px;
+  color: white;
+  display: inline-block;
+  margin-left: 1140px;
+  background-color: #00ccff;
+  border: 2px solid #00ccff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.text10{
+  position:relative;
+  top:-240px;
+  padding: 10px 35px;
+  background-color: Transparent;/*new features*/
+  display: inline-block;
+  color: white;
+  border:none;
+}
+.text10:hover {
+  padding: 10px 35px;
+  color: #00ccff;
+  display: inline-block;
+  background-color:Transparent;
+  border:none;
+}
+.text11{
+  position:relative;
+  top:-240px;
+  padding: 10px 35px;
+  background-color:Transparent;  /* very important and NEW ATTRIBUTE*/
+  display: inline-block;
+  margin-left: 521px;
+  color: white;
+  border:none;
+}
+.text11:hover {
+  padding: 10px 35px;
+  color: #00ccff;
+  display: inline-block;
+  margin-left: 521px;
+  background-color:Transparent;
+  border:none;
+}
+.text9{
+  color: grey;
+  margin-left:80%;
+  font-family: exo;
+  font-size: 15px;
+  position:relative;
+  top:10px;
+}
+.text12{
+  font-size:30px;
+  font-family:exo;
+  color:#696969;
+  margin-left:60px;
+}
+.text13{
+  font-size:15px;
+  margin-left:70%;
+  padding:6px 6px;
+  border-left:2px solid grey;
+  position:relative;
+  top:-435px;
+  font-family:exo;
+  color:#696969;
+}
+.text14{
+  font-size:15px;
+  margin-left:75%;
+  padding:6px 6px;
+  position:relative;
+  top:-468px;
+  font-family:exo;
+  color:#00ccff;
+}
+.text15{
+
+  font-size:15px;
+  margin-left:80px;
+  margin-right:80px;
+  text-align:justify;
+  position:relative;
+  top:10px;
+  color:#696969;
+}
+.text16{
+  font-family:Exo;
+  font-size:15px;
+  margin-left:20px;
+  color:#696969;
+}
+.text17{
+  display:block;
+  font-family:Exo;
+  font-size:15px;
+  margin-left:20px;
+  color:#696969;
+}
+
+a19{
+  font-family:exo;
+  font-size: 20px;
+  color: #00ccff;
+}
+a20{
+  transition:0.5s;
+  color:#00ccff
+}
+.img1{width:30%;position:relative;top:-625px;border:2px solid black;margin-left:35%;}
+.img2{width:3%;
+background-color:#00ccff;
+margin-left:80%;
+position:fixed;
+margin-bottom:200px;
+z-index:1;
+}
+.img2:hover{
+  background-image: linear-gradient(#00ccff, black);
+  border-radius:5px;
+  transition: 1.3s;
+}
+a{
+  text-decoration:none;
+  color:grey;
+}
+.link1{
+ color:white;
+
+ padding:10px;
+ position:relative;
+  top:-16px;
+   }
+.link1:hover{
+    color:#00ccff;
+    padding:10px;
+    position:relative;
+    top:-16px;
+    border-bottom: 2px solid #00ccff;
+    border-top: 2px dotted #00ccff;
+  }
+.td1:hover{
+  transform:scale(1.1);
+}
+#i1 {
+  width: 35%;
+}
+#l1 {
+  margin-left: 80px;
+}
+#i2 {
+  width: 35%;
+}
+#l2 {
+  margin-left: 15px;
+}
+#i3 {
+  width: 35%;
+}
+#l3 {
+  margin-left: 80px;
+}
+#i4 {
+  width: 39.5%;
+}
+#l4 {margin-left: 15px;}
+#l5 {margin-left: 80px;}
+#i6 {width: 31.8%;}
+#l6 {margin-left: 35px;}
+#l7 {margin-left: 15px;}
+#i7 {margin-left: 10px;width: 29.5%;}
+#i8 {width: 80.5%;}
+#l8 {margin-left: 80px;}
+label {font-family: arial;color: grey;font-weight: bold;}
+cap1{background-color:#00ccff;font-weight:bold;color:grey;
+}
+input {
+  color: #00ccff;
+  border: none;
+  border-bottom: 2px solid grey;}
+.navbar {
+  overflow: hidden;
+  background-color: black;}
+.navbar a {
+  float: right;
+  font-size: 14px;
+  color: white;
+  font-family:exo;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;}
+.dropdown{
+  float: right;
+  overflow: hidden;}
+
+.dropdown .dropbtn {
+  font-size: 14px;
+  font-weight:exo;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color: #00ccff;
+  transition:0.5s;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: grey;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  color: #00ccff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*animation*/
+@keyframes colorchange {
+  0% {
+    color: #00ccff;
+     }
+  50% {
+    color: orange;
+  }
+
+}
+.mySlides {
+  display: none;
+}
+.text18{
+  display:none;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background-image: url("gc2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+    .text17{
+    display:none;
+    }
+    .text18{
+      display:block;
+      color:white;
+      font-size:3.5vw;
+      font-family:exo;
+      text-align:center;
+      margin-top:50%;
+    }
+
+  }
